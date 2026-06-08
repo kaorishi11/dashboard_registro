@@ -1,8 +1,6 @@
 import { useEffect, useState } from 'react'
 import { supabase } from '../services/supabase'
 
-import '../styles/Alunos.css'
-
 export default function Alunos() {
 
   const [alunos, setAlunos] = useState([])
